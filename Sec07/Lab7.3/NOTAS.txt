@@ -1,0 +1,14 @@
+Comandos usados
+:::::::::::::::
+
+terraform init -backend-config=backend.tfvars
+
+terraform workspace new test
+
+terraform workspace list
+
+terraform plan -var-file=test.tfvars
+
+terraform apply -var-file=test.tfvars -auto-approve
+
+terraform apply -var-file=prod.tfvars -auto-approve
